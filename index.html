@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/main.css" />
+  <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<title>Oberig</title>
+</head>
+<body>
+<div class="flex-container">
+	<div class="publication-images">
+    <img src="images/1.jpg"alt="image">
+    <img src="images/2.jpg"alt="image">
+    <img src="images/3.jpg"alt="image">
+    <img src="images/4.jpg"alt="image">
+	</div>
+		<div class="text-block-flex">
+			<div class="text-block">
+           <div class="publication-spine">
+    <img src="images/oberig.jpg"alt="image">
+  </div>
+        <p class="description-fat">oberih<br/>
+        </p>
+			<p class="description">
+is a publishing and a fundraising project that stand as a platform and means of support for people affected by the war in ukraine. it is a collection of stories about oberihs [in ukr.: ‘an item that protects’],— things that accompany us and provide solace and protection in all circumstance. gathered from our friends, who are fighting, working, volunteering and directly facing consequences of the war, these stories reached us in the form of short texts, images, voice messages and online posts in the period of april–may 2022. after we transcribed, edited and compiled these stories together, we published them in a book called oberih.<br/>
+<br/>
+oberih is printed in the edition of 1000 numbered copies and presented at lc-queisser gallery booth at liste art fair (basel, ch) on june 12, 2022. after the initial presentation, the book will be available for international purchase online. proceedings from donations and sales of the edition will be all directed towards volunteer initiatives and humanitarian organizations, which are related to our authors and currently have urgent necessities in their activity on territories affected by the war.
+<br/>
+<br/>
+<br/>
+	</p>
+	<p class="accordion" style="border-top: 1.5px solid black;">Initatives we support</p>
+		<div class="accordion-content">
+  	<ul>
+<li>
+Atelier Normalno<br/>
+group of artists with and without Down syndrome; right now, two artists from the group: Katya Libkind and Stas Turina are working and volunteering in various initiatives and funds that support people with disabilities.<br/>
+<br/>
+</li>
+  
+<li>
+Ukraine Helping Medical Collection<br/>
+a joint group of Poland and Ukrainian citizens, organising a collection of funds and specific medical and tactical products in Poland. The collected funds are used to purchase the most needed products, according to the needs of hospitals and auxiliary wards.<br/>
+<br/>
+</li>
+
+<li>
+Hospitaliers<br/>
+a volunteer organization of paramedics, working directly on the front line.<br/>
+<br/>
+</li>
+  
+<li>
+IT-Troups<br/>
+a volunteer organization providing wide range of various humanitarian aid and media coverage of the war in Ukraine.<br/>
+<br/>
+</li>
+
+<li>
+Women Veteran Movement<br/> 
+a consolidation of female veterans, created to increase the opportunities for self-realization in the society and to provide advocacy and protection of the rights of women veterans and active military personnel.<br/>
+<br/>
+</li>
+</ul>
+</div>
+<p class="accordion">Authors in order of appearance</p>
+<div class="accordion-content">
+<div class="fat-type">
+Stanislav Turina, Katya Libkind, Pavlo Huk, Tereza Yakovyna, Zoé, Dariia Kuzmych, Georgi Mamardashvili, Anna-Mariia Kucherenko, Ksenya Bilyk, Maryana Klochko, Yaroslav Futymskyi, Yarema Malashchuk, Arsenii Tarasov, Dima Levytskyi, Pavlo Shapoval, Grisha Kyt, Lucy Ivanova, Zhenia Stepanenko, Mykhailo Kryven, Katya Lesiv, Diana Khalilova, Olena Samoilenko, Serhiy Voinalovych, Katerina Nefeld, Yuri Anikin, Fulco Treffers, Taras Pastushchuk, Nina Direnko and Boris Stepanenko, Khrystyna Buniy, Anastisiia Kulik, Oleh Shovenko, Misha Buksha, Eliza Mamardashvili, Olga Malyshenko, Serhiy Solovyov, Andriy Bozhok, Daria Maiier, Galyna Nikitina, Alyona Tokovenko, Olena Fedotova, Alisa Testova, Sana Shahmuradova, Katya Buchatska, Lera Ganicheva, Daniil Nemirovskiy 
+</div>
+<br/>
+</div>
+
+<p class="accordion">Colophon</p>
+<div class="accordion-content">
+  <p>
+produced<br/>
+with the initial support of lc-queisser, the eckenstein-geigy foundation, stiftung zur förderung aktueller kunst, and liste art fair basel<br/>
+<br/>
+edited & designed<br/>
+by daša anosova, timur akhmetov, vitya glushchenko, anna riabova, yuli rudenko, olha lyubarska<br/> 
+<br/>
+thanks to<br/> 
+leopold thun, lisa offermann, ana chorgolashvili, nika lelashvili, olya oleinic, karl oskar toover, elisabeth klement, volodymyr gavrysh, yura kudryk 7bc.com.ua and many-many others. and with special thanks to 'friends of matteo'<br/>
+<br/>
+printed by printon a.s., tallinn, estonia<br/>
+published by understructures<br/>
+<br/>
+1000 (numbered copies)<br/>
+size: 105x150mm<br/>
+language: english<br/>
+216 pp.<br/>
+<br/>
+<br/>
+  </p>
+			</div>
+
+<p class="accordion">Purchase and contact</p>
+<div class="accordion-content">
+  <p>
+Locations:<br/>
+– At Liste Art Fair, Basel June 12–16 (LC-Queisser booth)<br/>
+– At Motto Books, Berlin on June 25th 18:00<br/>
+– At Sans-Seriffe, Amsterdam on July 1st 20:00<br/>
+<br/>
+Online:</p>
+– Pre-order online, first shipment on June 20th. <br/>
+– By contacting us personally<br/> 
+<br/> 
+  </p>
+      </div>
+      </div>
+		</div>	
+</div>		
+</body>
+<script>
+  let accordionHeading = document.querySelectorAll(".accordion");
+  let accordionContent = document.querySelectorAll(".accordion-content");
+
+  for (let i = 0; i < accordionHeading.length; i++) {
+    accordionHeading[i].onclick = function () {
+      if (this.nextElementSibling.style.maxHeight) {
+        hideContent();
+      } else {
+        showContent(this);
+      }
+    };
+  }
+
+  function showContent(elem) {
+    hideContent();
+    elem.classList.add("active");
+    elem.nextElementSibling.style.maxHeight =
+      elem.nextElementSibling.scrollHeight + "px";
+  }
+
+  function hideContent() {
+    for (let i = 0; i < accordionContent.length; i++) {
+      accordionContent[i].style.maxHeight = null;
+      accordionHeading[i].classList.remove("active");
+    }
+  }
+</script>
+</html>

@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+body {
+	background:lightgray;
+	font-family: 'EB Garamond', serif;
+	font-size: 22px;
+	line-height: 24px;
+  -webkit-text-stroke: 0.5px black;
+  min-height: 100vh;
+  height: 100vh;
+  overflow: hidden;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+img {
+	max-width:100%;
+	margin: 0px;
+  padding-bottom: 0px;
+}
+
+p {
+	margin: 0px;
+}
+
+ul {
+  padding-left: 0px;
+}
+
+.fat-type {
+  font-family: 'EB Garamond', serif;
+  font-size: 22px;
+  line-height: 24px;
+  margin: 0px;
+  letter-spacing: 1px;
+  -webkit-text-stroke: 1.5px black;
+}
+
+p.description {
+  font-family: 'EB Garamond', serif;
+  font-size: 22px;
+  line-height: 24px;
+  margin: 0px;
+  letter-spacing: 0.3px;
+    -webkit-text-stroke: 0.5px black;
+}
+p.description-fat {
+  font-family: 'EB Garamond', serif;
+  font-size: 46px;
+  display: none;
+  text-align: center;
+  line-height: 42px;
+  padding-top: 0px;
+  padding-bottom: 30px;
+  margin: 0px;
+    -webkit-text-stroke: 2.4px black;
+}
+
+.flex-container {
+	display: flex;
+	width: 100%;
+	justify-content: left;
+	flex-wrap: wrap;
+}
+
+.text-block-flex {
+	display: flex;
+  padding-left: 10px;
+	flex-wrap: wrap;
+	width: 48%;
+  min-height: 100vh;
+  height: 100vh;
+  overflow-y: scroll;
+-ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.text-block {
+	width: 100%;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+
+}
+
+.publication-images {
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 49%;
+  min-height: 100vh;
+  height: 100vh;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.publication-spine {
+  width: 65%;
+}
+
+.publication-images::-webkit-scrollbar, .text-block-flex::-webkit-scrollbar {
+  display: none;
+}
+
+/* accordion title text styles */
+  p.accordion {
+  font-family: 'EB Garamond', serif;
+  font-size: 22px;
+  line-height: 24px;
+  margin: 0px;
+  letter-spacing: 1px;
+    -webkit-text-stroke: 1.6px black;
+  }
+
+  /* accordion content text styles */
+  .accordion-content p {
+  font-family: 'EB Garamond', serif;
+  font-size: 22px;
+  line-height: 24px;
+  margin: 0px;
+  letter-spacing: 0.3px;
+  -webkit-text-stroke: 0.5px black;
+  }
+
+  /* accordion content link styles */
+  .accordion-content a {
+    font-family: Arial;
+    font-weight:bold;
+    font-size: 22px;
+    line-height:24px;
+    padding-left: 0px;
+  }
+
+  /* accordion title styles */
+  .accordion {
+    cursor: pointer;
+    padding: 10px 0px;
+    margin: 0;
+    font-weight: 300;
+  }
+
+  /* accordion icon box styles */
+  .accordion::after {
+    content: '✕';
+    float: right;
+    transform: rotate(-45deg);
+    font-size: 14px;
+    transition: .2s ease-out;
+  }
+
+/* accordion icon box styles: opened  */  
+.active::after {
+    content: "✕";
+    transform: rotate(0deg);
+    font-size: 18px;
+  }
+
+ /* accordion content box styles: default */
+  .accordion-content {
+  padding-left: 40px;
+  padding-right: 20px;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.2s ease-out;
+    border-bottom: 1.5px solid black;
+  }
+
+  @media (max-width: 1000px) {
+
+body {
+  overflow: auto;
+  min-height: auto;
+  height: auto;
+}
+
+p.description {
+  font-family: 'EB Garamond', serif;
+  font-size: 22px;
+  line-height: 24px;
+  margin: 0px;;
+  letter-spacing: 0.3px;
+    -webkit-text-stroke: 0.5px black;
+}
+
+p.description-fat {
+  font-family: 'EB Garamond', serif;
+  font-size: 36px;
+  line-height: 24px;
+  padding-top: 10px;
+  padding-bottom: 33px;
+  margin: 0px;
+  letter-spacing: -0.1px;
+    -webkit-text-stroke: 2.4px black;
+}
+
+.text-block-flex {
+  padding-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  overflow: auto;
+  min-height: auto;
+  height: auto;
+}
+
+.publication-images {
+  float: left;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 100%;
+  overflow: auto;
+  min-height: auto;
+  height: auto;
+}
+
+  }
+
+
+
