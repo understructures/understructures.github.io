@@ -11,6 +11,16 @@ body {
   overflow: hidden;
 }
 
+a {
+  font-family: 'EB Garamond', serif;
+  text-decoration: underline;
+  font-size: 22px;
+  color: black;
+  line-height: 24px;
+  -webkit-text-stroke: 0.5px black;
+
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
