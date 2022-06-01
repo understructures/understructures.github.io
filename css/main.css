@@ -222,6 +222,15 @@ p.description-fat {
   height: auto;
 }
 
+.text-block {
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  padding-top: 10px;
+
+}
+
 .publication-images {
   float: left;
   padding-top: 10px;
