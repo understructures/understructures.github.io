@@ -214,6 +214,7 @@ p.description-fat {
 
 .text-block-flex {
   padding-top: 10px;
+  padding-left: 0px;
   display: flex;
   flex-wrap: wrap;
   width: 100%;
