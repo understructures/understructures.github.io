@@ -52,6 +52,7 @@ ul {
 p.description {
   font-family: 'EB Garamond', serif;
   font-size: 28px;
+  padding-bottom: 40px;
   line-height: 32px;
   margin: 0px;
   letter-spacing: 0.4px;
