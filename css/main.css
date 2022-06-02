@@ -192,6 +192,10 @@ body {
   width: 100%;
 }
 
+.flex-container {
+    flex-direction: column-reverse;
+}
+
 p.description {
   font-family: Arial;
   font-size: 18px;
