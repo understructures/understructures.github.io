@@ -144,6 +144,7 @@ p.description-fat {
   font-size: 18px;
   color: black;
   line-height: 22px;
+  letter-spacing: 0.3px;
   -webkit-text-stroke: 0.5px black;
   }
 
