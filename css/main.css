@@ -190,14 +190,16 @@ body {
 
 .publication-spine {
   width: 100%;
-  position: -webkit-sticky;
+  padding-bottom: 0px;
+  position: fixed;
   top: 0;
-  padding-bottom: 10px;
-    padding-top: 10px;
+  left: 0;
+  right: 0;
 }
 
 .flex-container {
     flex-direction: column-reverse;
+    padding-top: 4.166666666666667vw;
 }
 
 p.description {
