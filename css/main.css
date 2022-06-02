@@ -190,8 +190,8 @@ body {
 
 .publication-spine {
   width: 100%;
-  position: sticky;
-  top: 1px;
+  position: -webkit-sticky;
+  top: 0;
   padding-bottom: 10px;
     padding-top: 10px;
 }
