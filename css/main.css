@@ -150,7 +150,7 @@ p.description-fat {
   /* accordion title styles */
   .accordion {
     cursor: pointer;
-    padding: 10px 0px;
+    padding: 7px 0px;
     margin: 0;
     font-weight: 300;
   }
