@@ -78,7 +78,7 @@ p.description-fat {
 	display: flex;
   padding-left: 10px;
 	flex-wrap: wrap;
-	width: 49%;
+	width: 60%;
   min-height: 100vh;
   height: 100vh;
   overflow-y: scroll;
@@ -96,9 +96,9 @@ p.description-fat {
 
 .publication-images {
 	padding-top: 10px;
-	padding-left: 10px;
-	padding-right: 10px;
-	width: 49%;
+	padding-left: 80px;
+	padding-right: 80px;
+	width: 40%;
   min-height: 100vh;
   height: 100vh;
   overflow-y: scroll;
