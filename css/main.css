@@ -180,43 +180,6 @@ p.description-fat {
     border-bottom: 1.5px solid black;
   }
 
-  @media (max-width: 800px) {
-
-.text-block-flex {
-  display: flex;
-  padding-right: 30px;
-  flex-wrap: wrap;
-  width: 50%;
-  min-height: 100vh;
-  height: 100vh;
-  overflow-y: scroll;
--ms-overflow-style: none;
-  scrollbar-width: none;
-}
-.publication-images {
-  padding-top: 10px;
-  padding-left: 30px;
-  padding-right: 30px;
-  width: 50%;
-  min-height: 100vh;
-  height: 100vh;
-  overflow-y: scroll;
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-}
-
-p.description {
-  font-family: Arial;
-  font-size: 22px;
-  padding-bottom: 60px;
-  line-height: 24px;
-  margin: 0px;
-  letter-spacing: 0.4px;
-    -webkit-text-stroke: 0.5px black;
-}
-
-  }
-
    @media (max-width: 600px) {
 
 body {
