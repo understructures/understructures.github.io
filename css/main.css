@@ -218,7 +218,7 @@ p.description-fat {
 }
 
 .text-block-flex {
-  padding-top: 10px;
+  padding-top: 0px;
   display: flex;
   padding-left: 20px;
   padding-right: 20px;
