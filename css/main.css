@@ -133,6 +133,7 @@ p.description-fat {
   line-height: 22px;
   margin: 0px;
   letter-spacing: 0.3px;
+  padding-bottom: 20px;
   -webkit-text-stroke: 0.5px black;
   }
 
