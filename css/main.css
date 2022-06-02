@@ -31,15 +31,10 @@ a {
 img {
 	max-width:100%;
 	margin: 0px;
-  padding-bottom: 0px;
 }
 
 p {
 	margin: 0px;
-}
-
-ul {
-  padding-left: 0px;
 }
 
 .fat-type {
@@ -109,6 +104,10 @@ p.description-fat {
   overflow-y: scroll;
   -ms-overflow-style: none;
   scrollbar-width: none;
+}
+
+.separate-image {
+  padding-bottom: 20px;
 }
 
 .publication-spine {
