@@ -238,9 +238,9 @@ p.description-fat {
 
 .publication-images {
   float: left;
-  padding-top: 20px;
+  padding-top: 10px;
   padding-left: 20px;
-  padding-right: 10px;
+  padding-right: 20px;
   width: 100%;
   overflow: auto;
   min-height: auto;
