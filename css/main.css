@@ -9,6 +9,7 @@ body {
   min-height: 100vh;
   height: 100vh;
   overflow: hidden;
+  letter-spacing: 0.3px;
 }
 
 a {
