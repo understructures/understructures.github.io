@@ -76,7 +76,7 @@ p.description-fat {
 
 .text-block-flex {
 	display: flex;
-  padding-right: 80px;
+  padding-right: 60px;
 	flex-wrap: wrap;
 	width: 60%;
   min-height: 100vh;
