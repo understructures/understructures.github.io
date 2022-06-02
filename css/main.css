@@ -122,8 +122,8 @@ p.description-fat {
 /* accordion title text styles */
   p.accordion {
   font-family: 'EB Garamond', serif;
-  font-size: 18px;
-  line-height: 22px;
+  font-size: 22px;
+  line-height: 24px;
   margin: 0px;
   letter-spacing: 1px;
     -webkit-text-stroke: 1.6px black;
