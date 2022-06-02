@@ -180,7 +180,7 @@ p.description-fat {
     border-bottom: 1.5px solid black;
   }
 
-   @media (max-width: 600px) {
+   @media (max-width: 1000px) {
 
 body {
   overflow: auto;
@@ -244,6 +244,3 @@ p.description-fat {
 }
 
   }
-
-
-
