@@ -2,9 +2,9 @@
 
 body {
 	background:lightgray;
-	font-family: 'EB Garamond', serif;
-	font-size: 22px;
-	line-height: 24px;
+	font-family: Arial;
+	font-size: 18px;
+	line-height: 22px;
   -webkit-text-stroke: 0.5px black;
   min-height: 100vh;
   height: 100vh;
@@ -14,9 +14,9 @@ body {
 a {
   font-family: 'EB Garamond', serif;
   text-decoration: underline;
-  font-size: 22px;
+  font-size: 18px;
   color: black;
-  line-height: 24px;
+  line-height: 22px;
   -webkit-text-stroke: 0.5px black;
 
 }
@@ -42,8 +42,8 @@ ul {
 
 .fat-type {
   font-family: 'EB Garamond', serif;
-  font-size: 22px;
-  line-height: 24px;
+  font-size: 18px;
+  line-height: 22px;
   margin: 0px;
   letter-spacing: 1px;
   -webkit-text-stroke: 1.5px black;
@@ -120,8 +120,8 @@ p.description-fat {
 /* accordion title text styles */
   p.accordion {
   font-family: 'EB Garamond', serif;
-  font-size: 22px;
-  line-height: 24px;
+  font-size: 18px;
+  line-height: 22px;
   margin: 0px;
   letter-spacing: 1px;
     -webkit-text-stroke: 1.6px black;
@@ -130,8 +130,8 @@ p.description-fat {
   /* accordion content text styles */
   .accordion-content p {
   font-family: 'EB Garamond', serif;
-  font-size: 22px;
-  line-height: 24px;
+  font-size: 18px;
+  line-height: 22px;
   margin: 0px;
   letter-spacing: 0.3px;
   -webkit-text-stroke: 0.5px black;
@@ -141,9 +141,9 @@ p.description-fat {
   .accordion-content a {
   font-family: 'EB Garamond', serif;
   text-decoration: underline;
-  font-size: 22px;
+  font-size: 18px;
   color: black;
-  line-height: 24px;
+  line-height: 22px;
   -webkit-text-stroke: 0.5px black;
   }
 
@@ -194,9 +194,9 @@ body {
 }
 
 p.description {
-  font-family: 'EB Garamond', serif;
-  font-size: 22px;
-  line-height: 24px;
+  font-family: Arial;
+  font-size: 18px;
+  line-height: 22px;
   margin: 0px;;
   letter-spacing: 0.3px;
     -webkit-text-stroke: 0.5px black;
@@ -205,7 +205,7 @@ p.description {
 p.description-fat {
   font-family: 'EB Garamond', serif;
   font-size: 36px;
-  line-height: 24px;
+  line-height: 22px;
   padding-top: 10px;
   padding-bottom: 33px;
   margin: 0px;
