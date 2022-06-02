@@ -184,7 +184,7 @@ p.description-fat {
 
 .text-block-flex {
   display: flex;
-  padding-right: 60px;
+  padding-right: 30px;
   flex-wrap: wrap;
   width: 50%;
   min-height: 100vh;
@@ -195,14 +195,24 @@ p.description-fat {
 }
 .publication-images {
   padding-top: 10px;
-  padding-left: 60px;
-  padding-right: 60px;
+  padding-left: 30px;
+  padding-right: 30px;
   width: 50%;
   min-height: 100vh;
   height: 100vh;
   overflow-y: scroll;
   -ms-overflow-style: none;
   scrollbar-width: none;
+}
+
+p.description {
+  font-family: Arial;
+  font-size: 22px;
+  padding-bottom: 60px;
+  line-height: 24px;
+  margin: 0px;
+  letter-spacing: 0.4px;
+    -webkit-text-stroke: 0.5px black;
 }
 
   }
