@@ -183,24 +183,26 @@ p.description-fat {
   @media (max-width: 800px) {
 
 .text-block-flex {
-  padding-top: 10px;
-  padding-left: 0px;
   display: flex;
+  padding-right: 60px;
   flex-wrap: wrap;
-  width: 50%;
-  overflow: auto;
-  min-height: auto;
-  height: auto;
+  width: 60%;
+  min-height: 100vh;
+  height: 100vh;
+  overflow-y: scroll;
+-ms-overflow-style: none;
+  scrollbar-width: none;
 }
 .publication-images {
-  float: left;
   padding-top: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-  width: 50%;
-  overflow: auto;
-  min-height: auto;
-  height: auto;
+  padding-left: 60px;
+  padding-right: 60px;
+  width: 40%;
+  min-height: 100vh;
+  height: 100vh;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
   }
