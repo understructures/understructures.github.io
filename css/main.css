@@ -140,14 +140,15 @@ p.description-fat {
   /* accordion content link styles */
   .accordion-content a {
   font-family: Arial, serif;
-  text-decoration: underline;
   font-size: 18px;
   color: black;
   line-height: 22px;
   letter-spacing: 0.3px;
   -webkit-text-stroke: 0.5px black;
   }
-
+  a:hover {
+  text-decoration: underline;
+}
   /* accordion title styles */
   .accordion {
     cursor: pointer;
