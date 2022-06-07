@@ -13,8 +13,8 @@ body {
 }
 
 .shopify-button {
-  display: flex;
-  width: 16%;
+  display: inline-block;
+  width: 19%;
 }
 
 a {
@@ -116,8 +116,9 @@ p.description-fat {
 }
 
 .publication-spine {
-  display: flex;
+  display: inline-block;
   width: 80%;
+  margin-right: 0px;
 }
 
 .publication-images::-webkit-scrollbar, .text-block-flex::-webkit-scrollbar {
@@ -201,6 +202,14 @@ body {
   top: 0;
   left: 0;
   right: 0;
+}
+
+.shopify-button {
+  display: inline-block;
+  width: 19%;
+  position: fixed;
+  top: 0;
+  right: 10px;
 }
 
 .flex-container {
