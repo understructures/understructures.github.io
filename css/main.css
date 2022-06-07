@@ -213,9 +213,9 @@ body {
   position: fixed;
   top: 0px;
   left: 0px;
-  right: 0;
+  right: 0px;
   background:lightgray;
-  width: 100%;
+  width: 5000px;
   height: 50px;
 }
 
