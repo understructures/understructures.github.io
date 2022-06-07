@@ -12,13 +12,29 @@ body {
   letter-spacing: 0.3px;
 }
 
+.nav-bar {
+  background:lightgray;
+  width: 100%;
+  height: 50px;
+  display: none;
+}
+
 .shopify-buy__btn-wrapper {
  margin-top: 0 !important;
 }
 
 .shopify-button {
+  margin-top: -20px;
   display: inline-block;
-  width: 19%;
+  width: 150px;
+  background:lightgray;
+}
+
+.publication-spine {
+  display: inline-block;
+  width: 150px;
+  margin-right: 0px;
+  padding-bottom: 20px;
 }
 
 a {
@@ -119,13 +135,6 @@ p.description-fat {
   padding-bottom: 20px;
 }
 
-.publication-spine {
-  display: inline-block;
-  width: 20%;
-  margin-right: 0px;
-  padding-bottom: 20px;
-}
-
 .publication-images::-webkit-scrollbar, .text-block-flex::-webkit-scrollbar {
   display: none;
 }
@@ -200,21 +209,33 @@ body {
   height: auto;
 }
 
+.nav-bar {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0;
+  background:lightgray;
+  width: 100%;
+  height: 50px;
+}
+
+
 .publication-spine {
-  width: 30%;
+  width: 150px;
   padding-bottom: 0px;
   position: fixed;
-  top: 0;
-  left: 0;
+  top: 10px;
+  left: 20px;
   right: 0;
+  background:lightgray;
 }
 
 .shopify-button {
   display: inline-block;
-  width: 30%;
+  width: 150px;
   position: fixed;
-  top: 0;
-  right: 10px;
+  top: 10px;
+  right:0px;
 }
 
 .flex-container {
