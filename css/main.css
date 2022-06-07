@@ -12,10 +12,13 @@ body {
   letter-spacing: 0.3px;
 }
 
+.shopify-buy__btn-wrapper {
+ margin-top: 0 !important;
+}
+
 .shopify-button {
   display: inline-block;
   width: 19%;
-  margin-top: 0px;
 }
 
 a {
