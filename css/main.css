@@ -15,6 +15,7 @@ body {
 .shopify-button {
   display: inline-block;
   width: 19%;
+  margin-top: 0px;
 }
 
 a {
@@ -119,6 +120,7 @@ p.description-fat {
   display: inline-block;
   width: 80%;
   margin-right: 0px;
+  padding-bottom: 20px;
 }
 
 .publication-images::-webkit-scrollbar, .text-block-flex::-webkit-scrollbar {
