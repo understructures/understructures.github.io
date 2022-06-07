@@ -12,6 +12,11 @@ body {
   letter-spacing: 0.3px;
 }
 
+.shopify-button {
+  display: flex;
+  width: 16%;
+}
+
 a {
   font-family: Arial, serif;
   font-size: 18px;
@@ -111,6 +116,7 @@ p.description-fat {
 }
 
 .publication-spine {
+  display: flex;
   width: 80%;
 }
 
