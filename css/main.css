@@ -64,9 +64,14 @@ p {
 	margin: 0px;
 }
 
-ul { 
-	margin:0; 
-	padding:0;
+ul {
+	display: block;
+	list-style-type: disc;
+	margin-before: 1em;
+	margin-after: 1em;
+	margin-start: 0;
+	margin-end: 0;
+	padding-start: 40px; 
 }
 
 .fat-type {
