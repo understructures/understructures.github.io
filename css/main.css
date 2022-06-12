@@ -34,7 +34,7 @@ body {
   display: inline-block;
   width: 150px;
   margin-right: 0px;
-  padding-bottom: 10px;
+  padding-bottom: 25px;
 }
 
 a {
@@ -222,7 +222,7 @@ body {
 
 .publication-spine {
   width: 150px;
-  padding-bottom: 0px;
+  padding-bottom: 10px;
   position: fixed;
   top: 10px;
   left: 20px;
