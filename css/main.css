@@ -247,7 +247,8 @@ p.description {
   font-family: 'EB Garamond', serif;
   font-size: 22px;
   line-height: 26px;
-  margin: 0px;;
+  margin: 0px;
+  padding-top: 30px;
   padding-bottom: 40px;
   letter-spacing: 0.3px;
     -webkit-text-stroke: 0.5px black;
@@ -257,7 +258,7 @@ p.description-fat {
   font-family: 'EB Garamond', serif;
   font-size: 36px;
   line-height: 22px;
-  padding-top: 20px;
+  padding-top: 30px;
   padding-bottom: 33px;
   margin: 0px;
   letter-spacing: -0.1px;
